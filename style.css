@@ -26,6 +26,7 @@ body{
     padding: 20px;
     border: 10px solid rgb(102, 48, 48);
     border-radius: 15px;
+    gap: 30px;
 }
 
 span{
