@@ -1,10 +1,11 @@
 ul {
     background-color: rgb(80, 15, 45);
     border: 4px solid rgb(70, 28, 35) dotted;
-    width: 200px;
+    width: auto;
     height: 60px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     gap: 10px;
+    padding: 5px;
 }
 
 body {
