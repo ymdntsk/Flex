@@ -1,0 +1,56 @@
+ul{
+    background-color: rgb(80, 15, 45);
+    border: 4px solid rgb(70, 28, 35) dotted;
+    width: 200px;
+    height: 60px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   gap: 10px;
+}
+body{
+    
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    padding: 100px;
+
+
+}
+
+.Main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    background-color: rgb(207, 127, 134);
+    padding: 20px;
+    border: 10px solid rgb(102, 48, 48);
+    border-radius: 15px;
+}
+
+span{
+
+    color: #c02e2e;
+}
+.Card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+    background-color: rgb(143, 72, 83);
+    border-radius: 15px;
+    color: aliceblue ;
+      width: 250px;
+}
+
+h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+h2{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+img{
+    border-radius: 15px;
+    border: 6px solid rgb(136, 53, 53);
+}
