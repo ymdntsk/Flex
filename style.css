@@ -1,11 +1,16 @@
 ul {
     background-color: rgb(80, 15, 45);
     border: 4px solid rgb(70, 28, 35) dotted;
-    width: auto;
-    height: 60px;
+
+
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     gap: 10px;
     padding: 5px;
+    font-size: 1.5vh;
+    width: 15vh;
+    height: 5vh;
+    color: aliceblue;
+    font-size: 1.5vh;
 }
 
 body {
@@ -17,7 +22,8 @@ body {
     align-items: center;
     padding: 100px;
     gap: 50px;
-    
+    width: 1149;
+    height: fit-content;
 
 
 
@@ -27,12 +33,13 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 500px;
+    width: 60vh;
     background-color: rgb(207, 127, 134);
     padding: 20px;
     border: 10px solid rgb(102, 48, 48);
     border-radius: 15px;
     gap: 30px;
+    height: 40vh
 }
 
 span {
@@ -48,39 +55,87 @@ span {
     background-color: rgb(143, 72, 83);
     border-radius: 15px;
     color: aliceblue;
-    width: 300px;
+    width: 50vh;
+    height: fit-content;
 }
 
 h1 {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 4vh;
 }
 
-h2 {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
-}
+
+
 
 img {
     border-radius: 15px;
     border: 6px solid rgb(136, 53, 53);
+    height: 30vh
 }
 
-section{
-    
-    
+.sla {
+
+
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 800px;
-    width: 800px;
+    width: 80vh;
     gap: 30px;
+    height: 30vh;
+    padding: 20px;
+
 }
 
-.Oque{
+.Oque {
     background-color: rgb(112, 46, 59);
     border: 8px solid rgb(85, 41, 94);
-    width: 300px;
-    padding: 20px;
-    height: 200px;
+    width: 60vh;
+    padding: 5px;
+    height: 25vh;
     color: aliceblue;
+    font-size: 1.5vh;
+
+
 
 }
+
+
+.Hey {
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    align-items: center;
+
+
+
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    width: 20%;
+    height: 33vh;
+    border: 3px solid rgb(88, 23, 23);
+    background-color: rgb(173, 129, 129);
+    margin: 0.5%;
+
+}
+
+header {
+    width: 100%;
+    /* FUNDAMENTAL: Faz os cards irem para a linha de baixo */
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+/* .card img{
+    display: block;// img e inline ent n combina com margin 
+    margin: auto;} 
+*/
