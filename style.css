@@ -1,27 +1,32 @@
-ul{
+ul {
     background-color: rgb(80, 15, 45);
     border: 4px solid rgb(70, 28, 35) dotted;
     width: 200px;
     height: 60px;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-   gap: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    gap: 10px;
 }
-body{
-    
+
+body {
+
     font-weight: bold;
     display: flex;
     justify-content: center;
-    align-items: baseline;
+    flex-direction: column;
+    align-items: center;
     padding: 100px;
+    gap: 50px;
+    
+
 
 
 }
 
-.Main{
+.Main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: auto;
+    width: 500px;
     background-color: rgb(207, 127, 134);
     padding: 20px;
     border: 10px solid rgb(102, 48, 48);
@@ -29,29 +34,52 @@ body{
     gap: 30px;
 }
 
-span{
+span {
 
     color: #c02e2e;
 }
-.Card{
+
+.Card {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 0px;
     background-color: rgb(143, 72, 83);
     border-radius: 15px;
-    color: aliceblue ;
-      width: 250px;
+    color: aliceblue;
+    width: 300px;
 }
 
-h1{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
-}
-h2{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
-img{
+h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+img {
     border-radius: 15px;
     border: 6px solid rgb(136, 53, 53);
+}
+
+section{
+    
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 800px;
+    width: 800px;
+    gap: 30px;
+}
+
+.Oque{
+    background-color: rgb(112, 46, 59);
+    border: 8px solid rgb(85, 41, 94);
+    width: 300px;
+    padding: 20px;
+    height: 200px;
+    color: aliceblue;
+
 }
